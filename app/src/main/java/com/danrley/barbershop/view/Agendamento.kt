@@ -32,8 +32,8 @@ class Agendamento : AppCompatActivity() {
         val datePicker: DatePicker = binding.datePicker
 
         val year: Int = 2023
-        val monthOfYear : Int = 0
-        val dayOfMonth: Int = 0
+        val monthOfYear : Int = 5
+        val dayOfMonth: Int = 16
         datePicker.init(year, monthOfYear, dayOfMonth) { _, year, monthOfYear, dayOfMonth ->
             calendar.set(Calendar.YEAR, year)
             calendar.set(Calendar.MONTH, monthOfYear)
