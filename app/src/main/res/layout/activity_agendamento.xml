@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/midnightblue"
+        tools:context=".view.Agendamento">
+
+        <TextView
+            android:id="@+id/tvBarbeiro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:gravity="center"
+            android:text="Agendamento"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="10dp"
+            />
+        </androidx.cardview.widget.CardView>
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+        />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:cardBackgroundColor="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hora"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:timePickerMode="spinner"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha um profissional"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+            <CheckBox
+                android:id="@+id/barbeiro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+            />
+
+            <TextView
+                android:id="@+id/tv_Barbeiro1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pedro da Silva"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+            <CheckBox
+                android:id="@+id/barbeiro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                />
+
+            <TextView
+                android:id="@+id/tv_Barbeiro2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marcos Duarte Gomes"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp">
+            <CheckBox
+                android:id="@+id/barbeiro3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                />
+
+            <TextView
+                android:id="@+id/tv_Barbeiro3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cleber Gomes"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btAgendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agendar"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/alizarin"
+            app:cornerRadius="15dp"
+            android:layout_margin="40dp"
+        />
+
+    </LinearLayout>
+</ScrollView>

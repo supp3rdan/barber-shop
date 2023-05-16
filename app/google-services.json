@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "223782918114",
+    "project_id": "barbearia-ac66c",
+    "storage_bucket": "barbearia-ac66c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223782918114:android:1a7b2eaaee87ace6390bbb",
+        "android_client_info": {
+          "package_name": "com.danrley.barbershop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223782918114-sqfutf7bmehv3sdhhehalq4t94p02ll7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.danrley.barbershop",
+            "certificate_hash": "77893eddf7ed9154f0272b6bbe6cd86391852ebf"
+          }
+        },
+        {
+          "client_id": "223782918114-ordl9904es2s173ir4o0ntio298gaeni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4C_um2dBwrp8a13MhtNDTDUCC3uGzBDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223782918114-ordl9904es2s173ir4o0ntio298gaeni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
